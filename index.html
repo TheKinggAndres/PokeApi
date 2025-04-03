@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
+<body>
+<main id="app">
+
+    <!--Contenido dinamico-->
+</main>
+
+<aside class="c-nav">
+    <button class="c-nav-item"
+    onclick="mostrarHome()">home</button>
+
+    <button class="c-nav-item"
+    onclick="mostrarUsuario()">usuario</button>
+
+    <button class="c-nav-item"
+    onclick="mostrarAleatorios()">aleatorios</button>
+
+    <button class="c-nav-item"
+    onclick="mostrarFavoritos()">favoritos</button>
+
+    <button class="c-nav-item"
+    onclick="mostrarCapturados()">capturados</button>
+
+    <button class="c-nav-item"
+    onclick="mostrarDetalle()">detalle</button>
+</aside>
+
+    <script src="/JavaScript/api.js"></script>
+    <script src="/JavaScript/aleatorios.js"></script>
+    <script src="/JavaScript/capturados.js"></script>
+    <script src="/JavaScript/detalle.js"></script>
+    <script src="/JavaScript/favoritos.js"></script>
+    <script src="/JavaScript/home.js"></script>
+    <script src="/JavaScript/usuario.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", General)
+    </script>
+
+</body>
+</html>
